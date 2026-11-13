@@ -1,0 +1,14 @@
+name: GraveboundArmy
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Recruit fallen mobs and command them as a gravebound army.
+commands:
+  gravebound:
+    description: Recruit and command your gravebound army.
+    usage: /gravebound <recruit|follow|hold|attack|release|list>
+    aliases: [army]
+permissions:
+  gravebound.use:
+    description: Allows players to use the gravebound army.
+    default: true
